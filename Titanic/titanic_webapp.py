@@ -45,7 +45,7 @@ def set_background(image_file):
     except Exception as e:
         st.error(f"Error during background setting: {e}")
 
-set_background('titanic_background_1.png')
+set_background('asset/titanic_background.png')
 
 st.markdown("""
 <style>
