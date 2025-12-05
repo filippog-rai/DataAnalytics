@@ -16,7 +16,7 @@ st.write(f"Directory Corrente: {os.getcwd()}")
 
 # Stampa i file presenti nella cartella radice (dovresti vedere 'app.py' e 'asset/')
 st.write("File nella root:", os.listdir()) 
-#
+
 # Prova a listare i file nella cartella 'asset' (ATTENZIONE alla case-sensitivity)
 try:
     st.write(f"File nella cartella asset: {os.listdir('asset')}")
@@ -57,7 +57,7 @@ def set_background(image_file):
     except Exception as e:
         st.error(f"Error during background setting: {e}")
 
-set_background('assets/titanic_background.png')
+set_background('titanic_background.png')
 
 st.markdown("""
 <style>
