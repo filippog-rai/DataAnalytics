@@ -16,7 +16,7 @@ st.write(f"Directory Corrente: {os.getcwd()}")
 
 # Stampa i file presenti nella cartella radice (dovresti vedere 'app.py' e 'asset/')
 st.write("File nella root:", os.listdir()) 
-
+#
 # Prova a listare i file nella cartella 'asset' (ATTENZIONE alla case-sensitivity)
 try:
     st.write(f"File nella cartella asset: {os.listdir('asset')}")
